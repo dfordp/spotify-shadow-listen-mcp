@@ -13,6 +13,12 @@ It reveals your **listener identity**, analyzes your **taste shifts**, and even 
 - 🧭 **Smart Track Search** – Use GPT to help you search tracks via mood or situation.
 - 🗂 **Your Playlists Explorer** – Get all your playlists and dig into what’s inside.
 - 🧱 **Playlist Builder** – Create and add tracks to Spotify playlists using natural queries.
+- 📊 **Top Artists and Tracks** – Check out your most listened artists and songs over time.
+- 🧪 **Track Audio Features** – Dive into technical traits like valence, danceability, and more.
+- 🧠 **AI-Powered Recommendations** – Get music suggestions using Spotify's recommendation engine.
+- ▶️ **Now Playing Viewer** – See your currently playing track.
+- ❤️ **Artist Follow/Unfollow** – Manage your followed artists.
+- 🧹 **Playlist Cleanup Tools** – Remove tracks or delete entire playlists.
 
 ---
 
@@ -79,8 +85,17 @@ MCP_BEARER_TOKEN=your_custom_token
 | `search_tracks`           | Search Spotify using mood or artist/style descriptors.                   |
 | `get_user_playlists`      | Lists all your Spotify playlists.                                        |
 | `get_playlist_tracks`     | Shows what's inside a selected playlist.                                 |
-| `create_playlist`         | Creates a new playlist in your account.                                 |
+| `create_playlist`         | Creates a new playlist in your account.                                  |
 | `add_tracks_to_playlist`  | Adds specific tracks into one of your playlists.                         |
+| `get_top_artists`         | View your most-listened-to artists.                                     |
+| `get_top_tracks`          | View your most-played songs.                                            |
+| `get_audio_features`      | Retrieve technical stats for tracks.                                    |
+| `get_recommendations`     | Use Spotify's AI to get similar song suggestions.                       |
+| `get_currently_playing`   | See what you're listening to right now.                                |
+| `follow_artist`           | Follow a specific artist.                                               |
+| `unfollow_artist`         | Unfollow a specific artist.                                             |
+| `remove_tracks_from_playlist` | Remove tracks from a playlist.                                   |
+| `delete_playlist`         | Delete a playlist from your library.                                    |
 
 ---
 
